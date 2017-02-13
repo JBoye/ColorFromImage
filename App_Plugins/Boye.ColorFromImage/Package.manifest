@@ -1,0 +1,17 @@
+{
+    "propertyEditors": [
+        {
+            "name": "Color From Image",
+            "alias": "Boye.ColorFromImage",
+            "editor": {
+                "valueType": "STRING",
+                "view": "~/App_Plugins/Boye.ColorFromImage/view.html"
+            }
+        }
+    ],
+    "javascript": [
+        "~/App_Plugins/Boye.ColorFromImage/ColorFromImageController.js",
+        "~/App_Plugins/Boye.ColorFromImage/ColorThief.js"
+    ], 
+    "css": ["~/App_Plugins/Boye.ColorFromImage/ColorFromImage.css"]
+}
