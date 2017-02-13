@@ -1,0 +1,5 @@
+<div ng-controller="Boye.ColorFromImageController" class="ColorFromImage">
+    <div ng-repeat="color in model.palette" ng-click="setColor(color)" class="color" ng-class="{selected:color == selectedColor}" style="background:rgb({{color[0]}}, {{color[1]}}, {{color[2]}})">
+
+    </div>
+</div>

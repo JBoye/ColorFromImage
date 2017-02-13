@@ -1,0 +1,13 @@
+﻿.ColorFromImage .color {
+    border: 1px solid #FFF;
+    width: 70px;
+    height: 45px;
+    margin-right: 4px;
+    margin-top: 4px;
+    float: left;
+    cursor: pointer;
+}
+
+    .ColorFromImage .color.selected {
+        outline: 2px solid #2e8aea;
+    }
